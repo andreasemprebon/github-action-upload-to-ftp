@@ -1,0 +1,26 @@
+name: 'Upload To FTP'
+description: 'Upload the content of a folder to a specific FTP'
+inputs:
+  host:
+    description: 'FTP host with protocol'
+    required: true
+    default: ''
+  username:
+    description: 'Username'
+    required: true
+    default: ''
+  password:
+    description: 'Password'
+    required: true
+    default: ''
+  source-folder:
+    description: 'Folder to copy'
+    required: true
+    default: ''
+  destination-folder:
+    description: 'Destination folder'
+    required: true
+    default: ''
+runs:
+  using: 'node12'
+  main: 'index.js'
