@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/andreasemprebon/github-action-upload-to-ftp#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^2.2.0",
     "basic-ftp": "^4.5.4"
   }
